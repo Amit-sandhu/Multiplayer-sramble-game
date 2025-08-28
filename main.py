@@ -15,8 +15,7 @@ words = ["apple", "river", "mountain", "freedom", "galaxy", "ocean", "candle",
 print("\n\n                        RULES FOR THE GAME                              ")
 print("\n1) Read each instruction carefully")
 print("2) The scrambled word will not contain repeating letters")
-print("3) You can use a letter more than once to guess the word")
-print("4) Type 'quit' anytime during guessing to give up")
+print("3) Type 'quit' anytime during guessing to give up")
 print("                             Enjoy!")
 
 # Main game loop to allow starting a new game
@@ -108,3 +107,4 @@ while True:
 
     else:                                                                            # handle invalid input for starting game
         print("Invalid input! Please enter yes or no.")
+
