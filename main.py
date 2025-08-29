@@ -12,10 +12,13 @@ words = ["apple", "river", "mountain", "freedom", "galaxy", "ocean", "candle",
          "twilight", "ember"]
 
 # Print game rules for the user
+print("\n\n                   MULTIPLAYER SCRAMBLED WORD GAME                        ")
 print("\n\n                        RULES FOR THE GAME                              ")
 print("\n1) Read each instruction carefully")
-print("2) Type 'quit' anytime during guessing to give up")
-print("                             Enjoy!")
+print("2) There will be a scrambled word on the screen")
+print("3) Take guesses and try to unscramble the word")
+print("4) Type 'quit' anytime during guessing to give up")
+print("\n                      Enjoy!")
 
 # Main game loop to allow starting a new game
 while True:
@@ -106,5 +109,6 @@ while True:
 
     else:                                                                            # handle invalid input for starting game
         print("Invalid input! Please enter yes or no.")
+
 
 
