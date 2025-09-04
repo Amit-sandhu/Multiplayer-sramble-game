@@ -1,7 +1,6 @@
 # MULTIPLAYER SCRAMBLE WORD GAME
 
 import random                                                        # imports random module to select words randomly
-
 # List of words to choose from in the game
 words = ["apple", "river", "mountain", "freedom", "galaxy", "ocean", "candle",
          "shadow", "blanket", "forest", "whisper", "journey", "thunder", "mirror",
@@ -109,6 +108,7 @@ while True:
 
     else:                                                                            # handle invalid input for starting game
         print("Invalid input! Please enter yes or no.")
+
 
 
 
